@@ -1,5 +1,6 @@
 void setup()
 {
+  size(600,600);
 	noLoop();
 }
 void draw()
@@ -20,10 +21,11 @@ class Die //models one single dice cube
 	}
 	void roll()
 	{
-		//your code here
+		//if (Math.random() < 1);
 	}
 	void show()
 	{
 		//your code here
+   rect (10,10,10,10);
 	}
 }
